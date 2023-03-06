@@ -197,4 +197,5 @@ https://tangerine-axolotl-8e448f.netlify.app
 The webapp was produced as a Final Project by Michael Tillcock in the HyperionDev Bootcamp.
 
 With thanks to Youtube tutorials from Ed Roh, WebDevSimplified, Sonny Sangha and CyberWolves
-for helping me understand some key concepts to build the webapp.
+for helping me understand some key concepts to build the webapp; aswell as PedroTech on a great
+tutorial on deployment via heroku and netlify.
