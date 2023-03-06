@@ -109,19 +109,19 @@ Clone the repository on GitHub Desktop and open the project in your IDE.
 
 In your project terminal, peform the below actions to re-intall dependencies (node modules):
 
-i: Front End:
+**i: Front End:**
 
 cd client
 
 npm install
 
-ii: Server
+**ii: Server**
 
 cd server
 
 npm install
 
-Create .env file in the server folder with the following contents:
+**Create .env file in the server folder with the following contents:**
 
 MONGO_URL='mongodb+srv:...REPLACE THIS WHOLE STRING WITH YOUR OWN MONGO DB URL...majority'
 
@@ -129,21 +129,21 @@ JWT_SECRET="f9...pick an alphanumberic string for your JWT Secret....b693"
 
 PORT=3001
 
-Run the app (from your app repository):
+**Run the app (from your app repository):**
 
-i: Run Front End:
+**i: Run Front End:**
 
 cd client
 
 npm run start
 
-ii: Run Server:
+**ii: Run Server:**
 
 cd server
 
 nodemon index.js
 
-Populate test users:
+**Populate test users:**
 
 In the server folder go to the index.js file
 
@@ -153,7 +153,7 @@ then recomment lines 66 & 67.
 
 This will load your app with some hardcoded test users
 
-Create your own user(s):
+**Create your own user(s):**
 
 Register a user on the page the app loads on (click the link below the login box)
 
@@ -161,7 +161,7 @@ Login the user in the login screen
 
 You can now use the app with this user
 
-Create your own admin user:
+**Create your own admin user:**
 
 If you need an admin user who can delete all posts...
 
@@ -175,7 +175,7 @@ Paste the id in the PostWidget.jsx file in line 58
 
 When this user is logged in they will be able to delete any post
 
-Logout:
+**Logout:**
 
 You can logout from a profile in top right of the app, if you want to change user
 
