@@ -62,6 +62,8 @@ As a user I want to be able to delete my own posts, in case I say something I re
 As a user I want to be able to post text and pictures, so I can share my recent golf rounds or general
 thoughts / memes in the golf space.
 
+As a user I want the option to use a dark mode, so that I can pick the best setting for my eyesight.
+
 As a admin user I want to be able to delete any post, so I can moderate content and protect users from
 spam and abusive content.
 
