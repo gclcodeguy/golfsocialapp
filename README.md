@@ -1,11 +1,13 @@
 # Golf Social App
 
 **Introduction:**
-Golf Social App is provides Twitter like experience for golfers wanting to
+
+Golf Social App provides a Twitter like experience for golfers wanting to
 network and share their rounds of golf with other golfers.
 
 **System Architecture:**
-The app will be created with the MERN stack.
+
+The app will be created with the MERN stack (Mongodb, Express, React, Node.js).
 
 The MERN stack is suitable for this app because the component like structure
 used in React is suitable for a dynamic social app, where the feed and friends
@@ -20,6 +22,7 @@ Tailwind CSS with React previously and I wanted experience using Material UI whi
 I have read is another good option for using with React apps.
 
 **System Requirements Specification:**
+
 The app will provide a social media experience for golfers who want to share their
 rounds of golf, with other golfers and increase their golf network. Users will
 benefit from the app by increasing their golf network, and meeting new golfers to play
@@ -38,6 +41,7 @@ Similar software experiences can be found on Twitter or Facebook - but this app 
 to golfers only, the benefit being users will only see relevant golf content.
 
 **User Stories**
+
 As a user I want to be able to register and login to the app securely, so that my activity
 is stored over time and my data is protected
 
@@ -58,89 +62,135 @@ As a admin user I want to be able to delete any post, so I can moderate content 
 spam and abusive content.
 
 **Functional Requirements**
+
 Users must be able to register and login to the app using email and password
+
 Users must be able to create a profile when they register
+
 Users must be able to view posts from all users
+
 Users must be able to view profiles of all users
+
 Profiles must include golf club and handicap information
+
 Users must be able to delete their own posts
+
 Users must be able to make posts, which can included text and pictures
+
 Admin users must be able to delete all posts
 
 **Non-Functional Requirements**
+
 Passwords must be encrypted when stored in the database
+
 JWT Tokens must be user to ensure only logged in users can perform actions
+
 The webapp must be responsive to desktop, tablet and mobile screens
 
 # User Instructions & Installation
 
 **How to use the app**
+
 Register for the app on the register screen
+
 Login to the app using you email and password
+
 On the homepage you can make posts, read posts, like posts and add friends
+
 On the profile page you can view your own profile, or the profile of other users
 
 **Install the app**
+
 Clone the repository on GitHub Desktop and open the project in your IDE.
 
 In your project terminal, peform the below actions to re-intall dependencies (node modules):
 
 i: Front End:
+
 cd client
+
 npm install
 
 ii: Server
+
 cd server
+
 npm install
 
 Create .env file in the server folder with the following contents:
 
 MONGO_URL='mongodb+srv:...REPLACE THIS WHOLE STRING WITH YOUR OWN MONGO DB URL...majority'
-JWT_SECRET="f9...pick an alphanumber string for your JWT Secret....b693"
+
+JWT_SECRET="f9...pick an alphanumberic string for your JWT Secret....b693"
+
 PORT=3001
 
 Run the app (from your app repository):
 
 i: Run Front End:
+
 cd client
+
 npm run start
 
 ii: Run Server:
+
 cd server
+
 nodemon index.js
 
 Populate test users:
 
 In the server folder go to the index.js file
+
 Uncomment, lines 66 & 67 in one command - make sure the server refreshed
 which it should do automatically if you are using nodemon
-then recomment lines 66 & 67. This will load your app with some hardcoded
-test users
+then recomment lines 66 & 67.
+
+This will load your app with some hardcoded test users
 
 Create your own user(s):
 
 Register a user on the page the app loads on (click the link below the login box)
+
 Login the user in the login screen
+
 You can now use the app with this user
 
 Create your own admin user:
 
 If you need an admin user who can delete all posts...
+
 Create the admin user using the registration function
+
 Go to your MongoDB, the relevant 'user' collection
+
 Copy the \_id of the admin user you just created
+
 Paste the id in the PostWidget.jsx file in line 58
+
 When this user is logged in they will be able to delete any post
 
 Logout:
+
 You can logout from a profile in top right of the app, if you want to change user
 
 **Security**
+
 API keys, tokens and DB URLs are stored in a .env file that is not
 uploaded to GitHub to mitigate security risks.
 
 **Deployment**
+
 The frontend and back have been deployed together for simplicity.
 
 **Link to the app**
+
 URL
+
+**References**
+
+The webapp was produced as a Final Project by Michael Tillcock in the HyperionDev Bootcamp.
+
+With thanks to Youtube tutorials from Ed Roh, WebDevSimplified, Sonny Sangha and CyberWolves
+for helping me understand some key concepts to build the webapp.
