@@ -5,6 +5,10 @@
 Golf Social App provides a Twitter like experience for golfers wanting to
 network and share their rounds of golf with other golfers.
 
+_Deployed test version of the app:_
+
+https://tangerine-axolotl-8e448f.netlify.app
+
 **System Architecture:**
 
 The app will be created with the MERN stack (Mongodb, Express, React, Node.js).
@@ -186,7 +190,7 @@ The frontend and back have been deployed together for simplicity.
 
 **Link to the app**
 
-URL
+https://tangerine-axolotl-8e448f.netlify.app
 
 **References**
 
