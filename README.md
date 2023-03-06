@@ -38,6 +38,7 @@ Similar software experiences can be found on Twitter or Facebook - but this app 
 to golfers only, the benefit being users will only see relevant golf content.
 
 **User Stories**
+
 As a user I want to be able to register and login to the app securely, so that my activity
 is stored over time and my data is protected
 
@@ -58,13 +59,21 @@ As a admin user I want to be able to delete any post, so I can moderate content 
 spam and abusive content.
 
 **Functional Requirements**
+
 Users must be able to register and login to the app using email and password
+
 Users must be able to create a profile when they register
+
 Users must be able to view posts from all users
+
 Users must be able to view profiles of all users
+
 Profiles must include golf club and handicap information
+
 Users must be able to delete their own posts
+
 Users must be able to make posts, which can included text and pictures
+
 Admin users must be able to delete all posts
 
 **Non-Functional Requirements**
