@@ -5,6 +5,10 @@
 Golf Social App provides a Twitter like experience for golfers wanting to
 network and share their rounds of golf with other golfers.
 
+_Deployed test version of the app:_
+
+https://tangerine-axolotl-8e448f.netlify.app
+
 **System Architecture:**
 
 The app will be created with the MERN stack (Mongodb, Express, React, Node.js).
@@ -58,6 +62,8 @@ As a user I want to be able to delete my own posts, in case I say something I re
 As a user I want to be able to post text and pictures, so I can share my recent golf rounds or general
 thoughts / memes in the golf space.
 
+As a user I want the option to use a dark mode, so that I can pick the best setting for my eyesight.
+
 As a admin user I want to be able to delete any post, so I can moderate content and protect users from
 spam and abusive content.
 
@@ -105,19 +111,19 @@ Clone the repository on GitHub Desktop and open the project in your IDE.
 
 In your project terminal, peform the below actions to re-intall dependencies (node modules):
 
-i: Front End:
+**i: Front End:**
 
 cd client
 
 npm install
 
-ii: Server
+**ii: Server**
 
 cd server
 
 npm install
 
-Create .env file in the server folder with the following contents:
+**Create .env file in the server folder with the following contents:**
 
 MONGO_URL='mongodb+srv:...REPLACE THIS WHOLE STRING WITH YOUR OWN MONGO DB URL...majority'
 
@@ -125,21 +131,21 @@ JWT_SECRET="f9...pick an alphanumberic string for your JWT Secret....b693"
 
 PORT=3001
 
-Run the app (from your app repository):
+**Run the app (from your app repository):**
 
-i: Run Front End:
+**i: Run Front End:**
 
 cd client
 
 npm run start
 
-ii: Run Server:
+**ii: Run Server:**
 
 cd server
 
 nodemon index.js
 
-Populate test users:
+**Populate test users:**
 
 In the server folder go to the index.js file
 
@@ -149,7 +155,7 @@ then recomment lines 66 & 67.
 
 This will load your app with some hardcoded test users
 
-Create your own user(s):
+**Create your own user(s):**
 
 Register a user on the page the app loads on (click the link below the login box)
 
@@ -157,7 +163,7 @@ Login the user in the login screen
 
 You can now use the app with this user
 
-Create your own admin user:
+**Create your own admin user:**
 
 If you need an admin user who can delete all posts...
 
@@ -171,7 +177,7 @@ Paste the id in the PostWidget.jsx file in line 58
 
 When this user is logged in they will be able to delete any post
 
-Logout:
+**Logout:**
 
 You can logout from a profile in top right of the app, if you want to change user
 
@@ -186,11 +192,12 @@ The frontend and back have been deployed together for simplicity.
 
 **Link to the app**
 
-URL
+https://tangerine-axolotl-8e448f.netlify.app
 
 **References**
 
 The webapp was produced as a Final Project by Michael Tillcock in the HyperionDev Bootcamp.
 
 With thanks to Youtube tutorials from Ed Roh, WebDevSimplified, Sonny Sangha and CyberWolves
-for helping me understand some key concepts to build the webapp.
+for helping me understand some key concepts to build the webapp; aswell as PedroTech on a great
+tutorial on deployment via heroku and netlify.
