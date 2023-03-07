@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlexBetween should render correctly 1`] = `
+<div
+  className="MuiBox-root css-1omog99"
+>
+  Hello World
+</div>
+`;
